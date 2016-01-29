@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main activity -->
+    <string name="app_name">Chester Made Mooshimeter</string>
+    <string name="button_scan">Scan</string>
+    <string name="connect">Connect</string>
+    <string name="title_device_list">Device List</string>
+    <string name="device">Device</string>
+    <string name="header">Available BLE Devices</string>
+    <string name="disconnected">Device is not connected</string>
+    <string name="control">Done</string>
+    <string name="bt_not_supported">Bluetooth is not supported</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="bt_on">Bluetooth was turned  on</string>
+    <string name="bt_not_on">Bluetooth was not turned on</string>
+    <string name="app_closing">Exiting</string>
+
+    <string-array name="device_filter">
+        <item>SensorTag</item>
+        <item>SensorTag2</item>
+    </string-array>
+
+    <string name="nodevice">No Mooshimeters detected.</string>
+    <string name="scan_advice">The Android device is not scanning. Please tap \'Scan\' to scan for Mooshimeters.</string>
+    <string name="bt_adapter_disable">Disable Bluetooth adapter</string>
+    <string name="bt_adapter_reset">Reset Bluetooth adapter</string>
+
+    <!-- Options menu -->
+    <string name="prefs">Preferences</string>
+    <string name="progress"></string>
+    <string name="agree">I agree</string>
+    <string name="fwupdate">Firmware update</string>
+    <string name="bt">Bluetooth Adapter</string>
+    <string name="sthome">SensorTag Home</string>
+    <string name="tie2e">TI E2E Community</string>
+    <string name="license">License</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+
+    <!-- Device activity -->
+    <string name="dev_addr">Device address</string>
+    <string name="image">Image</string>
+
+    <!-- FWUpdate activity -->
+    <string name="title_oad">Firmware Update (OAD)</string>
+    <string name="start_prog">Start Programming</string>
+    <string name="cancel">Cancel</string>
+    <string name="prog_ogoing">NB! Not permitted to close this view during OAD transfer</string>
+    <string name="load_image_a">Image A</string>
+    <string name="load_image_b">Image B</string>
+    <string name="load_image_c">Custom</string>
+    <string name="no_image">Not an OAD image</string>
+    <string name="no_image_sel">No image selected</string>
+    <string name="new_image">New image:</string>
+    <string name="cur_image">Current image:</string>
+    <string name="idle">idle</string>
+    <string name="btn_txt_confirm">Confirm</string>
+    <string name="title_activity_trend">TrendActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="crash_toast_text">Oh no! Something went wrong, a crash report has been submitted.</string>
+
+</resources>
